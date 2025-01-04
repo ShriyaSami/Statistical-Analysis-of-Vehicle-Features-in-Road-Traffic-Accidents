@@ -1,4 +1,4 @@
-# Statistical-Analysis-of-Vehicle-Features-in-Road-Traffic-Accidents
+# Statistical Analysis of Vehicle Features in Road Traffic Accidents
 
 This statistical analysis aims to lay the foundation of understanding of vehicle features in relation to road traffic accidents. Through a collaborative approach, the findings of this analysis have the potential to reduce the number of vehicle-related road traffic accidents. 
 
@@ -12,6 +12,22 @@ The dataset’s supporting documentation states that unknown/missing data has be
 ## Data Cleaning for Regression Model Only
 To fit a regression model, the dataset had to be pre-processed further.
 This included: data integration, data transformation (feature selection, dummy encoding and ordinal encoding) and data cleaning.
+
+# Statistical Analysis
+To perform statistical analysis, the following research questions were answered.
+
+## 1. Do the observed frequencies of road traffic accidents for different vehicle types differ significantly from the expected frequencies?
+
+## 2. Is there a statistically significant relationship between a vehicle’s engine capacity and its frequency of being involved in a road traffic accident?
+
+## 3. Do the observed frequencies of road traffic accidents for different vehicle propulsion types differ significantly from the expected frequencies?
+
+## 4. Is there a statistically significant relationship between a vehicle’s age and its frequency of being involved in a road traffic accident?
+
+## 5. Among the UK's top ten vehicle makes identified by the DVLA, do the observed frequencies of road traffic accidents for different vehicle makes differ significantly from the expected frequencies?
+
+## 6. Are certain vehicle makes, among the UK’s top ten makes identified by the DVLA, associated with more severe road traffic accidents?
+
 
 
 # References
