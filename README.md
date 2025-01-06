@@ -3,8 +3,10 @@
 This statistical analysis aims to lay the foundation of understanding of vehicle features in relation to road traffic accidents. Through a collaborative approach, the findings of this analysis have the potential to reduce the number of vehicle-related road traffic accidents. 
 
 # Key Findings: 
-- A marginal relationship was found between a vehicle’s engine capacity and its road traffic accident frequency, limiting its practical significance. Despite a significant difference in accident counts for vehicles of varying propulsion types, more data would be required to understand the finding.
-- Significant differences were found between observed and expected value for vehicle types and vehicle makes. Despite some vehicle types and makes being more prevalent in the UK, they are not the most frequently in road traffic accidents. However, certain vehicle makes were more frequently involved in road traffic accidents at various severity levels.
+- A marginal relationship was found between a vehicle’s engine capacity and its road traffic accident frequency, limiting its practical significance.
+- Despite a significant difference in accident counts for vehicles of varying propulsion types, more data would be required to understand the finding.
+- Significant differences were found between observed and expected value for vehicle types and vehicle makes. Despite some vehicle types and makes being more prevalent in the UK, they are not the most frequently in road traffic accidents.
+- Certain vehicle makes were more frequently involved in road traffic accidents at various severity levels.
 - A significant correlation was found between a vehicle’s age and its road traffic accident frequency, where older vehicles were less frequently involved in road traffic accidents.
 - Finally, a regression model identified statistically significant features for increased accident severity levels. As this analysis uses a large UK-based road traffic accidents dataset, these findings can be adopted and studied further to support policies for safer vehicles to reduce the number of vehicle-related road traffic accidents.
 
