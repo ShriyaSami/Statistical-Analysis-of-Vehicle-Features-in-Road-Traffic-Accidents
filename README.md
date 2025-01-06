@@ -2,18 +2,18 @@
 
 This statistical analysis aims to lay the foundation of understanding of vehicle features in relation to road traffic accidents. Through a collaborative approach, the findings of this analysis have the potential to reduce the number of vehicle-related road traffic accidents. 
 
-# Key Findings: 
-- A marginal relationship was found between a vehicle’s engine capacity and its road traffic accident frequency, limiting its practical significance.
-- Despite a significant difference in accident counts for vehicles of varying propulsion types, more data would be required to understand the finding.
-- Significant differences were found between observed and expected value for vehicle types and vehicle makes. Despite some vehicle types and makes being more prevalent in the UK, they are not the most frequently in road traffic accidents.
-- Certain vehicle makes were more frequently involved in road traffic accidents at various severity levels.
-- A significant correlation was found between a vehicle’s age and its road traffic accident frequency, where older vehicles were less frequently involved in road traffic accidents.
-- Finally, a regression model identified statistically significant features for increased accident severity levels. As this analysis uses a large UK-based road traffic accidents dataset, these findings can be adopted and studied further to support policies for safer vehicles to reduce the number of vehicle-related road traffic accidents.
+# 🔍 Key Findings:
+- A marginal relationship was found between a vehicle’s engine capacity and its road traffic accident frequency, limiting its practical significance. 🚗
+- Despite a significant difference in accident counts for vehicles of varying propulsion types, more data would be required to understand the finding. 💨
+- Significant differences were found between observed and expected value for vehicle types and vehicle makes. Despite some vehicle types and makes being more prevalent in the UK, they are not the most frequently in road traffic accidents. ↕️
+- Certain vehicle makes were more frequently involved in road traffic accidents at various severity levels. 📊
+- A significant correlation was found between a vehicle’s age and its road traffic accident frequency, where older vehicles were less frequently involved in road traffic accidents. 📉
+- Finally, a regression model identified statistically significant features for increased accident severity levels. As this analysis uses a large UK-based road traffic accidents dataset, these findings can be adopted and studied further to support policies for safer vehicles to reduce the number of vehicle-related road traffic accidents. 🇬🇧
 
-# Datasets
+# 🌐 Datasets
 The ‘Road Safety Data’ by the Department for Transport will be used, (Department for Transport, 2024b). From the dataset, the ‘Road Safety - Collisions last 5 years’ (86.4 MB) and ‘Road Safety - Vehicles last 5 years’ (120.4 MB) files are used. 
 
-# Data Pre-processing
+# 🧹 Data Pre-processing
 ## Overall Data Cleaning
 The dataset’s supporting documentation states that unknown/missing data has been categorised using the value of ‘-1’. As the dataset is extremely large, records containing ‘-1’ have been dropped, effectively removing unknown/missing data.
 
@@ -21,7 +21,7 @@ The dataset’s supporting documentation states that unknown/missing data has be
 To fit a regression model, the dataset had to be pre-processed further.
 This included: data integration, data transformation (feature selection, dummy encoding and ordinal encoding) and data cleaning.
 
-# Statistical Analysis
+# 🧮 Statistical Analysis
 To perform statistical analysis, the following research questions were answered.
 
 ## 1. Do the observed frequencies of road traffic accidents for different vehicle types differ significantly from the expected frequencies?
@@ -52,7 +52,7 @@ To perform statistical analysis, the following research questions were answered.
 - Conversely, for the hybrid category, frequencies were observed than expected. This shows that from the 6% of hybrid vehicles in the UK, even fewer are involved in road traffic accidents.
 <img src="https://github.com/ShriyaSami/Statistical-Analysis-of-Vehicle-Features-in-Road-Traffic-Accidents/blob/main/question%203%20standardised%20residuals.png" alt="Standardised Residuals by Vehicle Propulsion Types" width="600" height="300">
 
-## 4. Is there a statistically significant relationship between a vehicle’s age and its frequency of being involved in a road traffic accident?
+## 4. Is there a statistically significant relationship between a vehicle’s age and its frequency of being involved in a road traffic accident? 
 **Statistical test used:** Spearman’s correlation.
 
 **Findings:** 
@@ -73,7 +73,7 @@ To perform statistical analysis, the following research questions were answered.
 ## 6. Are certain vehicle makes, among the UK’s top ten makes identified by the DVLA, associated with more severe road traffic accidents?
 **Statistical test used:** Chi-square test of independence.
 
-**Findings:** 
+**Findings:**
 - As p-value < 0.05, there is sufficient evidence to reject the null hypothesis in favour of the alternative hypothesis. This indicates a statistically significant association between vehicle make and road traffic accident severity, suggesting that certain vehicles are more likely to be involved in road traffic accidents at various severity levels.
 - The mosaic plot, as shown below, showed that most observed road traffic accidents belong to category 3 (slight), regardless of make.
 - Ford is the most observed make, but this does not convey that Ford vehicles are associated with more severe road traffic accidents. This is indicated by the colour coded standardised residuals. The standardised residual of Ford in severity category 3 (-2.0) is significantly less than its standardised residual in severity category 2 (2.4).
@@ -82,10 +82,10 @@ To perform statistical analysis, the following research questions were answered.
 - Similarly, BMW and Mercedes have significant differences in observed and expected values for severity category 1 (fatal). For both, significantly higher values were observed. This can be linked to driver behaviours. Both makes are considered luxury cars, but various research has shown for drivers of expensive cars ‘more likely to break traffic regulations’, (Lönnqvist, Ilmarinen and Leikas, 2020).
 <img src="https://github.com/ShriyaSami/Statistical-Analysis-of-Vehicle-Features-in-Road-Traffic-Accidents/blob/main/question%206%20mosaic%20plot.png" alt="Mosaic Plot" width="700" height="400">
 
-## Ordinal Logistic Regression Model
+## 🤖 Ordinal Logistic Regression Model 
 Overall, the model identified statistically significant features and log odds of categories when all predictor features are zero. It indicated whether a one-unit increase, per feature, would lead to increased odds of higher accident severity levels. This provides an insight into which features, when increased, could lead to increased accident severity levels. 
 
-# References
+# 📚 References
 Department for Transport (2024b) ‘Road Safety Data’. Available at: https://www.data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data (Accessed: 10 November 2024).
 
 Lönnqvist, J.E., Ilmarinen, V. and Leikas, S. (2020) ‘Not only assholes drive Mercedes. Besides disagreeable men, also conscientious people drive high‐status cars’, International Journal of Psychology, 55(4), pp. 572–576. Available at: https://doi.org/10.1002/ijop.12642.
