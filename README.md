@@ -2,6 +2,8 @@
 
 This statistical analysis aims to lay the foundation of understanding of vehicle features in relation to road traffic accidents. Through a collaborative approach, the findings of this analysis have the potential to reduce the number of vehicle-related road traffic accidents. 
 
+The code for this analysis can be found in the Road Safety Data.R file.
+
 # 🔍 Key Findings:
 - A marginal relationship was found between a vehicle’s engine capacity and its road traffic accident frequency, limiting its practical significance. 🚗
 - Despite a significant difference in accident counts for vehicles of varying propulsion types, more data would be required to understand the finding. 💨
