@@ -20,7 +20,10 @@ To perform statistical analysis, the following research questions were answered.
 **Statistical test used:** Chi-square goodness of fit test.
 
 **Findings:** 
-- As p-value < 0.05, there is sufficient evidence to reject the null hypothesis in favour of the alternative hypothesis, indicating a statistically significant difference in accident counts across vehicle types. This suggests potential under or overrepresentation of certain vehicle types in road traffic accident data. 
+- As p-value < 0.05, there is sufficient evidence to reject the null hypothesis in favour of the alternative hypothesis, indicating a statistically significant difference in accident counts across vehicle types. This suggests potential under or overrepresentation of certain vehicle types in road traffic accident data.
+- The standardised residuals were visualised, as shown below:
+- ![Standardised Residuals by Vehicle Types](https://github.com/ShriyaSami/Statistical-Analysis-of-Vehicle-Features-in-Road-Traffic-Accidents/blob/main/question%201%20standardised%20residuals.png)
+- In the bar plot, the height of each bar represents the difference between observed and expected values. The direction of the bar, positive or negative, indicates whether observed frequencies were higher or lower. The car category’s largely positive residual suggests disproportional involvement in road traffic accidents compared to their road presence. The van category’s largely negative residual suggests lower involvement in road traffic accidents compared to their road presence. 
 
 ## 2. Is there a statistically significant relationship between a vehicle’s engine capacity and its frequency of being involved in a road traffic accident?
 **Statistical test used:** Pearson’s correlation.
